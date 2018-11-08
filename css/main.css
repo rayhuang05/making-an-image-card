@@ -6,9 +6,12 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
-.img-flex {display: block;
-width: 100%;
+
+.img-flex {
+  display: block;
+  width: 100%;
 }
+
 .card {
   overflow: hidden;
   border:1px solid #ccc
@@ -18,6 +21,7 @@ width: 100%;
 .card-body {
   padding: .2rem 1rem;
 }
+
 .card-title {
   margin: 0;
   padding: .3rem 1rem;
@@ -26,6 +30,7 @@ width: 100%;
   left: 0;
   width: 100%;
 }
+
 .card-label {
   padding: 3rem 1rem .3rem calc(1rem-4px);
   border-left: 4px solid green;
